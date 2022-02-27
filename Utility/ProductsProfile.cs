@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using InventoryFeedProcessor.Models;
+using InventoryFeedProcessor.Repositories.Core.Domain;
 using InventoryFeedProcessor.Utility;
 using System;
 using System.Collections.Generic;

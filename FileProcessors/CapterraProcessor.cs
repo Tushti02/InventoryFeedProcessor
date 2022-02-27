@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using InventoryFeedProcessor.Models;
-using System;
+using InventoryFeedProcessor.Repositories.Core.Domain;
 using System.Collections.Generic;
 using System.IO;
 using YamlDotNet.Serialization.NamingConventions;

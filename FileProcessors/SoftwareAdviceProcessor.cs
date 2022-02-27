@@ -1,10 +1,9 @@
 ﻿using AutoMapper;
 using InventoryFeedProcessor.Models;
+using InventoryFeedProcessor.Repositories.Core.Domain;
 using Newtonsoft.Json;
-using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Text.Json;
 
 namespace InventoryFeedProcessor.FileProcessors
 {

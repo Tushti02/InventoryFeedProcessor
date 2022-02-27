@@ -3,11 +3,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
-using System.Text.Json;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AutoMapper;
+using InventoryFeedProcessor.Repositories;
+using InventoryFeedProcessor.Repositories.Core.Domain;
 
 namespace InventoryFeedProcessor
 {
@@ -27,6 +24,11 @@ namespace InventoryFeedProcessor
                     
                     services.AddAutoMapper(typeof(ProductsProfile));
                     services.AddTransient<IProcessFileDispatcher, ProcessFileDispatcher>();
+
+                    services.AddTransient<IProductRepository,ProductRepository>();
+                    services.AddTransient<IUnitOfWork, UnitOfWork>();
+                    services.AddTransient<IRepository<Product>, Repository<Product>>();
+
 
                     services.AddSingleton<CapterraProcessor>();
                     services.AddSingleton<SoftwareAdviceProcessor>();

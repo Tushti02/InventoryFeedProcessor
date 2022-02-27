@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace InventoryFeedProcessor.Models
+namespace InventoryFeedProcessor.Repositories.Core.Domain
 {
     public class Product
     {
