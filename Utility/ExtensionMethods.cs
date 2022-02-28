@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace InventoryFeedProcessor.Utility
+﻿namespace InventoryFeedProcessor.Utility
 {
     public static class ExtensionMethods
     {

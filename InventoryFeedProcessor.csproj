@@ -23,6 +23,12 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="5.0.14" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.22" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.4" />
     <PackageReference Include="YamlDotNet" Version="11.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InventoryFeedProcessor.Infrastructure\InventoryFeedProcessor.Infrastructure.csproj" />
+    <ProjectReference Include="..\InventoryFeedProcessor.Services\InventoryFeedProcessor.Services.csproj" />
   </ItemGroup>
 </Project>

@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryFeedProcessor", "InventoryFeedProcessor.csproj", "{2EB67BDE-C370-4157-9DF7-050854D146E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryFeedProcessor", "InventoryFeedProcessor.csproj", "{2EB67BDE-C370-4157-9DF7-050854D146E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryFeedProcessorTests", "InventoryFeedProcessorTests\InventoryFeedProcessorTests.csproj", "{CC80537A-92D3-4FF7-ACE6-7DBDFA8A647F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryFeedProcessorTests", "InventoryFeedProcessorTests\InventoryFeedProcessorTests.csproj", "{CC80537A-92D3-4FF7-ACE6-7DBDFA8A647F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryFeedProcessor.Domain", "..\InventoryFeedProcessor.Domain\InventoryFeedProcessor.Domain.csproj", "{8346B0BF-1ECC-4D01-9293-E420927C043D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryFeedProcessor.Infrastructure", "..\InventoryFeedProcessor.Infrastructure\InventoryFeedProcessor.Infrastructure.csproj", "{417D2FB3-36D9-4F09-A69D-055432259C7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryFeedProcessor.Services", "..\InventoryFeedProcessor.Services\InventoryFeedProcessor.Services.csproj", "{E515E7B1-81DB-4318-98A5-B1810E6880B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{CC80537A-92D3-4FF7-ACE6-7DBDFA8A647F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC80537A-92D3-4FF7-ACE6-7DBDFA8A647F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC80537A-92D3-4FF7-ACE6-7DBDFA8A647F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8346B0BF-1ECC-4D01-9293-E420927C043D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8346B0BF-1ECC-4D01-9293-E420927C043D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8346B0BF-1ECC-4D01-9293-E420927C043D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8346B0BF-1ECC-4D01-9293-E420927C043D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{417D2FB3-36D9-4F09-A69D-055432259C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{417D2FB3-36D9-4F09-A69D-055432259C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{417D2FB3-36D9-4F09-A69D-055432259C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{417D2FB3-36D9-4F09-A69D-055432259C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E515E7B1-81DB-4318-98A5-B1810E6880B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E515E7B1-81DB-4318-98A5-B1810E6880B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E515E7B1-81DB-4318-98A5-B1810E6880B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E515E7B1-81DB-4318-98A5-B1810E6880B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
