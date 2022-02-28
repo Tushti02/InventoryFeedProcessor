@@ -1,0 +1,9 @@
+C:\Users\tushti.ahuja\source\repos\InventoryFeedProcessor\InventoryFeedProcessor.Infrastructure\bin\Debug\netcoreapp3.1\InventoryFeedProcessor.Infrastructure.deps.json
+C:\Users\tushti.ahuja\source\repos\InventoryFeedProcessor\InventoryFeedProcessor.Infrastructure\bin\Debug\netcoreapp3.1\InventoryFeedProcessor.Infrastructure.dll
+C:\Users\tushti.ahuja\source\repos\InventoryFeedProcessor\InventoryFeedProcessor.Infrastructure\bin\Debug\netcoreapp3.1\InventoryFeedProcessor.Infrastructure.pdb
+C:\Users\tushti.ahuja\source\repos\InventoryFeedProcessor\InventoryFeedProcessor.Infrastructure\obj\Debug\netcoreapp3.1\InventoryFeedProcessor.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tushti.ahuja\source\repos\InventoryFeedProcessor\InventoryFeedProcessor.Infrastructure\obj\Debug\netcoreapp3.1\InventoryFeedProcessor.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\tushti.ahuja\source\repos\InventoryFeedProcessor\InventoryFeedProcessor.Infrastructure\obj\Debug\netcoreapp3.1\InventoryFeedProcessor.Infrastructure.AssemblyInfo.cs
+C:\Users\tushti.ahuja\source\repos\InventoryFeedProcessor\InventoryFeedProcessor.Infrastructure\obj\Debug\netcoreapp3.1\InventoryFeedProcessor.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\tushti.ahuja\source\repos\InventoryFeedProcessor\InventoryFeedProcessor.Infrastructure\obj\Debug\netcoreapp3.1\InventoryFeedProcessor.Infrastructure.dll
+C:\Users\tushti.ahuja\source\repos\InventoryFeedProcessor\InventoryFeedProcessor.Infrastructure\obj\Debug\netcoreapp3.1\InventoryFeedProcessor.Infrastructure.pdb
