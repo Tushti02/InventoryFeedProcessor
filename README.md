@@ -1,2 +1,0 @@
-# InventoryFeedProcessor
-Inventory Feed Processor

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="YamlDotNet" Version="11.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InventoryFeedProcessor.Domain\InventoryFeedProcessor.Domain.csproj" />
+    <ProjectReference Include="..\InventoryFeedProcessor.Infrastructure\InventoryFeedProcessor.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
