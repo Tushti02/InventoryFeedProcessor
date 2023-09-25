@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-InventoryFeedProcessor-5F0D56FC-0B63-438E-BB58-E0A8CB646952</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="InventoryFeedProcessorTests\**" />
+    <Content Remove="InventoryFeedProcessorTests\**" />
+    <EmbeddedResource Remove="InventoryFeedProcessorTests\**" />
+    <None Remove="InventoryFeedProcessorTests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Repositories\Persistence\IRepository1111.cs" />
+    <Compile Remove="Repositories\Persistence\Repository1111.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="5.0.14" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.22" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.4" />
+    <PackageReference Include="YamlDotNet" Version="11.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InventoryFeedProcessor.Infrastructure\InventoryFeedProcessor.Infrastructure.csproj" />
+    <ProjectReference Include="..\InventoryFeedProcessor.Services\InventoryFeedProcessor.Services.csproj" />
+  </ItemGroup>
+</Project>
